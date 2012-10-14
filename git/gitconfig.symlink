@@ -5,8 +5,8 @@
 [hub]
         protocol = https
 [user]
-        name = Zach Holman
-        email = zach@zachholman.com
+        name = Jesse Wolgamott
+        email = jesse@comalproductions.com
 [credential]
         helper = osxkeychain
 [alias]
