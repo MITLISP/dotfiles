@@ -1,9 +1,11 @@
-# holman does dotfiles
+# jwo's dotfiles
 
 ## dotfiles
 
+(edited from holman's dotfiles. these are mine)
+
 Your dotfiles are how you personalize your system. These are mine. The very
-prejudiced mix: OS X, zsh, Ruby, Rails, git, homebrew, rbenv, vim. If you
+prejudiced mix: OS X, zsh, Ruby, Rails, git, homebrew, rvm, vim. If you
 match up along most of those lines, you may dig my dotfiles.
 
 I was a little tired of having long alias files and everything strewn about
@@ -21,7 +23,7 @@ subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
 Run this:
 
 ```sh
-git clone https://github.com/holman/dotfiles.git ~/.dotfiles
+git clone https://github.com/jwo/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 ```
@@ -33,7 +35,7 @@ The main file you'll want to change right off the bat is `zsh/zshrc.symlink`,
 which sets up a few paths that'll be different on your particular machine.
 
 You'll also want to change `git/gitconfig.symlink`, which will set you up as
-committing as Zach Holman. You probably don't want that.
+committing as Jesse Wolgamott. You probably don't want that.
 
 ## topical
 
@@ -78,7 +80,7 @@ bubble bath.
 ## bugs
 
 I want this to work for everyone; that means when you clone it down it should
-work for you even though you may not have `rbenv` installed, for example. That
+work for you even though you may not have `rvm` installed, for example. That
 said, I do use this as *my* dotfiles, so there's a good chance I may break
 something if I forget to make a check for a dependency.
 
@@ -87,6 +89,8 @@ If you're brand-new to the project and run into any blockers, please
 and I'd love to get it fixed for you!
 
 ## thanks
+
+I forked Zach's dotfiles. Zach's original thanks below:
 
 I forked [Ryan Bates](http://github.com/ryanb)' excellent
 [dotfiles](http://github.com/ryanb/dotfiles) for a couple years before the
