@@ -7,6 +7,7 @@ syntax on
 filetype plugin indent on
 set noswapfile
 colors Tomorrow-night
+set bg=dark
 
 map ,t :w\|:!rspec --color %<cr>
 map ,r :w\|:!ruby %<cr>
@@ -72,16 +73,13 @@ function! RunTests(filename)
 endfunction
 
 function! ReverseBackground()
- let Mysyn=&syntax
- if &bg=="light"
- se bg=dark
- highlight Normal guibg=black guifg=white
+ if &bg == "light"
+   se bg=dark
+   color Tomorrow-night
  else
- se bg=light
- highlight Normal guibg=white guifg=black
+   se bg=light
+   color Tomorrow
  endif
- syn on
- exe "set syntax=" . Mysyn
 endfunction
 command! Invbg call ReverseBackground()
 " ----------------------------------------------------------------------------
