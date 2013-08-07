@@ -74,8 +74,6 @@ bubble bath.
 
 - If you want some more colors for things like `ls`, install grc: `brew install
   grc`.
-- If you install the excellent [rbenv](https://github.com/sstephenson/rbenv) to
-  manage multiple rubies, your current branch will show up in the prompt. Bonus.
 
 ## bugs
 

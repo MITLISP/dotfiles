@@ -7,11 +7,12 @@ syntax on
 filetype plugin indent on
 set noswapfile
 colors Tomorrow-night
-set bg=dark
+"set bg=dark
 
 map ,t :w\|:!rspec --color %<cr>
 map ,r :w\|:!ruby %<cr>
 map ,a :w\|:!cucumber --color %<cr>
+map ,ntf :NERDTreeFind <cr>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " RUNNING TESTS

@@ -1,4 +1,5 @@
 SSH_ENV="$HOME/.ssh/environment"
+ssh-add ~/.ssh/id_rsa
 
 # start the ssh-agent
 function start_agent {
